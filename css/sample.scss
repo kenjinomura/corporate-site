@@ -465,7 +465,20 @@ h1{
         margin: 0;
         letter-spacing: 0.2rem;
         }
+        
+        
+     @media (min-width: 550px){
+     h2 {
+        text-align: center;
+        color: white;
+        font-size: 32px;
+        font-size: 3.2rem;
+        font-weight: bold;
+        margin: 0;
+        letter-spacing: 0.2rem;
+        }
      }
+}
 
 #contents {
   
@@ -491,7 +504,7 @@ h1{
      
     .news_li li span {
         color: #42b9d0;
-        display: block;
+        display: inline;
         font-weight: bold;
         margin-bottom: 3px;
         list-style:none;
